@@ -1,0 +1,50 @@
+{
+  "name": "taskery",
+  "version": "1.0.0",
+  "description": "Task manager",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon -q -r dotenv/config src/app.js",
+    "debug": "nodemon --inspect -q -r dotenv/config ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://acastillo9@github.com/acastillo9/taskery.git"
+  },
+  "keywords": [
+    "task",
+    "manager",
+    "tasks",
+    "homework"
+  ],
+  "author": "ACastillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acastillo9/taskery/issues"
+  },
+  "homepage": "https://github.com/acastillo9/taskery#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.0",
+    "koa-router": "^10.0.0",
+    "koa2-swagger-ui": "^5.0.5",
+    "mongoose": "^5.12.0",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-plugin-autoinc": "^1.1.9",
+    "swagger-jsdoc": "^6.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
