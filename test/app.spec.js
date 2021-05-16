@@ -1,5 +1,5 @@
 describe('app running', () => {
   it('should run app', () => {
-    expect(true).toEqual(true);
+    expect(1).toEqual(1);
   });
 });

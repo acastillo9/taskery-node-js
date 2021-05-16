@@ -6,6 +6,7 @@
   "main": "src/app.js",
   "scripts": {
     "start": "pm2 start ecosystem.config.cjs --env production",
+    "start_dev": "nodemon -r dotenv/config ./src/app.js",
     "debug": "nodemon --inspect -q -r dotenv/config ./src/app.js",
     "test": "jest"
   },
